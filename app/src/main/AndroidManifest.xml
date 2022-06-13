@@ -3,7 +3,12 @@
     xmlns:tools="http://schemas.android.com/tools"
     package="com.frogobox.research">
 
-    <queries> <package android:name="com.whatsapp" /> </queries>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <queries>
+        <package android:name="com.whatsapp" />
+    </queries>
 
     <application
         android:allowBackup="true"
@@ -25,7 +30,15 @@
             </intent-filter>
         </activity>
 
-
+        <provider
+            android:name="androidx.core.content.FileProvider"
+            android:authorities="com.frogobox.research"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/provider_paths" />
+        </provider>
 
     </application>
 
