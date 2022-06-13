@@ -1,6 +1,22 @@
 ## Android Share Image To Other Apps
 - Android Share Image To Other Apps
 
+## Screen Shoot Apps
+
+<table>
+
+<tr>
+    <th>SS 1/th>
+    <th>SS 2</th>
+</tr>
+
+<tr>
+    <td><img width="200px" height="360px" src="docs/image/ss_1.png"></td>
+    <td><img width="200px" height="360px" src="docs/image/ss_2.png"></td>
+</tr>
+
+</table>
+
 ## Colaborator
 Very open to anyone, I'll write your name under this, please contribute by sending an email to me
 
