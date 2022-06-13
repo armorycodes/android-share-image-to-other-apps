@@ -6,7 +6,7 @@
 <table>
 
 <tr>
-    <th>SS 1/th>
+    <th>SS 1</th>
     <th>SS 2</th>
 </tr>
 
